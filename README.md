@@ -1,7 +1,5 @@
 # BevoJump
 
-# BevoJump
-
 Program Structure:
 
 -   Render loop
