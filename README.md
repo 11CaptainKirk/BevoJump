@@ -15,7 +15,7 @@ Questions:
     - Biggest problem I see with this is stuff like systick that are very specific. Maybe that would have to be platform-specific but the render loop and game logic could be cross platform.
     - Ideally we should have layers of abstraction. The core layer is the game engine itself. Above it is the compatibility layer with the specific platform we are on. Below it is the specific game we are building. _<-- Take a look at this Ethan, it is an interesting conept._
 
-Structures: (because we are using C++ we can do OOP and inheritance)
+Structures: (because we are using C++ we can do OOP and inheritance) Actually I think this may be a bad idea and just using structs is better. We can still do manual inheritance.
 
 -   Position/Velocity/Accel - ? better name ?
     -   X, Y position in (pixels?/units?)
